@@ -1,5 +1,6 @@
-import { Suspense, useState, useEffect, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
+import { Suspense, useState, useEffect, useRef } from "react";
+
 import Loader from "../components/Loader";
 import Island from "../models/Island";
 import Sky from "../models/Sky";
@@ -14,8 +15,9 @@ const Home = () => {
   const audioRef = useRef(new Audio(sakura));
   audioRef.current.volume = 0.4;
   audioRef.current.loop = true;
-  const [isRotating, setIsRotating] = useState(false);
+
   const [currentStage, setCurrentStage] = useState(1);
+  const [isRotating, setIsRotating] = useState(false);
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
 
 
@@ -26,9 +28,8 @@ const Home = () => {
 
     return () => {
       audioRef.current.pause();
-      audioRef.current.currentTime = 0;
     }
-  }, )
+  },[isPlayingMusic])
 
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
