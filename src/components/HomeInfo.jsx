@@ -21,7 +21,7 @@ const renderContent = {
       ),
     2: (
         <InfoBox
-         text="Hey, glad that you found my crafting yard. My guess that you either used one of my tiny apps or read my site and now are following the clue."
+         text="Hey, glad that you found my crafting yard.  Welcome to my rabbit hole! Let's get started!"
          link="/about"
          btnText="Learn More"
         />
