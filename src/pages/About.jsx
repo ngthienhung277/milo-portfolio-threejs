@@ -10,17 +10,17 @@ const About = () => {
   return (
     <section className="max-container">
       <h1 className="head-text">
-        Hello, I'm{" "}
+        Hello Internet, It's me{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
-          Milo Nguyen
+           Milô 
         </span>
-        👋
+        , your boi!
+        👋 🌱🌿🌼🍂🌱🌿
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Vietnam, specializing in technical
-          education through hands-on learning and building applications.
+        Passionate frontend developer with 4 years of experience crafting responsive and intuitive web/game applications. Specialized in React ecosystem and modern JavaScript/TypeScript. Committed to writing clean, maintainable code and creating exceptional user experiences that drive business growth. and I'm also skilled in Backend (BE) development, particularly with building REST APIs using Express.js and Nodejs.
         </p>
       </div>
 
@@ -44,7 +44,7 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Work experiences</h3>
+        <h3 className="subhead-text">9-5 experiences</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
           I've worked with all sorts of companies, leveling up my skills and
